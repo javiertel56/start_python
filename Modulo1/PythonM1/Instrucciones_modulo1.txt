@@ -1,0 +1,211 @@
+--------------------------------------------------------
+Configuración del entorno
+--------------------------------------------------------
+1.- Instalar extension python
+2.- Instalar extension Prettier - Code formatter
+3.- Instalar extensión Python Indent
+
+
+
+--------------------------------------------------------
+Crear Carpeta para curso (verificar archivos creados mencionados)
+--------------------------------------------------------
+1.-crear archivo {Hola_mundo.py}
+
+
+
+--------------------------------------------------------
+Datos simples
+--------------------------------------------------------
+existen 4 tipos de datos SIMPLES (archivo {tipos-de-datos.py})
+
+1.-texto o string
+    se escribe entre comillas = "String" o 'String' 
+
+2.-entero o int
+    se escribe con el signo de número = 1234
+
+3.-decimal o float
+    se escribe con el signo de decimal = 12.34
+    
+4.-booleano o bool
+    se escribe con el signo de booleano = True o False
+
+
+
+--------------------------------------------------------
+Variables (archivo {variables.py})
+--------------------------------------------------------
+existen 3 tipos de variables
+Las variables se declaran y se definenn:
+nombre = "Juan" ; Edad = 25, activo = True ; dinero = 200.78
+nombre_completo = "Juan Perez"
+
+edad = 25
+edad += 1
+
+
+    1.- variable global
+        se declaran antes de la ejecución del programa
+        se pueden modificar en cualquier parte del programa
+        se pueden declarar varias veces
+        
+    2.- variable local
+        se declaran dentro de una función
+        se pueden modificar dentro de la función
+        se pueden declarar una sola vez
+        
+    3.- variable argumento
+        se declaran dentro de una función
+        se pueden modificar dentro de la función
+        se pueden declarar una sola vez
+
+elimnar variable
+del nombre
+
+#Operadores de pertenencia
+in
+not in
+is
+is not  
+ejemplo: 
+print ("Juan" in informacion)
+print ("Juan" not in informacion)
+
+--------------------------------------------------------
+Concatenacion 
+--------------------------------------------------------
+se puede concatenar  texto con cualquier otro tipo de dato
+ejemplo:
+
+nombre = "Juan"
+edad = 25     
+informacion = nombre + " tiene " + str(edad) + " años"
+
+print (informacion)
+
+--------------------------------------------------------
+Datos compuestos {datos-compuestos.py}
+--------------------------------------------------------
+# List (es modificable)
+ejemplo:
+lista = ["juan lopez", 50, True, 1.89]
+# conocer su estatura
+print(lista[3])
+print("la estatura de " + str(lista[0]) + " es " + str(lista[3]))
+
+# tupla (es inmutable)
+tupla = ("juan lopez", 50, True, 1.89)
+# conocer su estatura
+print(tupla[3])
+print("la estatura de " + str(tupla[0]) + " es " + str(tupla[3]))
+
+# diccionario (es inmutable)
+diccionario = {
+    nombre: "juan lopez",
+    edad: 50,
+    activo: True,
+    estatura: 1.89
+}
+print("la estatura de " + diccionario["nombre"] + " es " + str(diccionario["estatura"]))
+
+
+
+--------------------------------------------------------
+Operadores aritmeticos {operadores-aritmeticos.py}
+--------------------------------------------------------
+suma = 1 + 2
+resta = 5 - 3
+multiplicacion = 4 * 5
+division = 10 / 2
+
+modulo = 10 % 3
+
+potencia = 2 ** 3
+division_baja = 10 // 3 #redondea hacia abajo
+
+print(suma)
+print(resta)
+print(multiplicacion)
+print(division)
+print(modulo)
+print(potencia)
+print(division_baja)
+
+--------------------------------------------------------
+operadores de comparacion {operadores-comparacion.py}
+--------------------------------------------------------
+igual_que = 1 == 2
+distinto_que = 1 != 2
+mayor_que = 1 > 2
+menor_que = 1 < 2
+mayor_o_igual_que = 1 >= 2
+menor_o_igual_que = 1 <= 2
+
+print(igual_que)
+print(distinto_que)
+print(mayor_que)    
+print(menor_que)
+print(mayor_o_igual_que)
+print(menor_o_igual_que) 
+
+--------------------------------------------------------
+Condicionales {condicionales.py}
+--------------------------------------------------------
+-if 
+-else
+-elif
+    if anidados
+
+--------------------------------------------------------
+operadores logicos {operadores-logicos.py}
+--------------------------------------------------------
+and
+or
+not
+
+if (5 > 10 and 10 > 5):
+    print("5 es mayor que 10")
+elif (5 > 10 or 10 > 5):
+    print("5 es mayor que 10 o 10 es mayor que 5")
+else:
+    print("5 es menor que 10 y 10 es menor que 5")
+
+--------------------------------------------------------
+EJERCICIO 
+--------------------------------------------------------
+Crea un programa en Python que haga lo siguiente (sin pedir datos al usuario):
+
+1. Declara las siguientes variables: nombre, edad, estatura, activo.
+2. Guarda estos datos en una lista, una tupla y un diccionario.
+3. Muestra la estatura usando cada estructura de datos.
+4. Suma 5 años a la edad y muestra el resultado usando operadores aritméticos.
+5. Compara si la edad es mayor o igual a 18 y muestra un mensaje usando condicionales.
+6. Usa operadores lógicos para verificar si la persona es mayor de edad y está activa.
+7. Concatenar y mostrar un mensaje con todos los datos del usuario.
+
+Salida esperada (ejemplo):
+
+La estatura usando lista es: 1.7
+La estatura usando tupla es: 1.7
+La estatura usando diccionario es: 1.7
+Edad dentro de 5 años: 21
+Eres menor de edad.
+No cumples ambas condiciones.
+Juan tiene 16 años, mide 1.7 y está activo: True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
